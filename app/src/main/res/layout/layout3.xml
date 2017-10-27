@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tvIntro"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:text="@string/tvIntro3"/>
+
+    <TableLayout
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:shrinkColumns="*"  android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+            <TextView
+                android:id="@+id/tvCell1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_span="2"
+                android:padding="18dip"
+                android:background="@drawable/colorborders2"
+                android:text="@string/tvCell1"/>
+            <TextView
+                android:id="@+id/tvCell2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:padding="18dip"
+                android:layout_span="2"
+                android:background="@drawable/colorborders2"
+                android:text="@string/tvCell2"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/tvCell3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:padding="18dip"
+                android:background="@drawable/colorborders2"
+                android:text="@string/tvCell3"/>
+            <TextView
+                android:id="@+id/tvCell4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:padding="18dip"
+                android:background="@drawable/colorborders2"
+                android:text="@string/tvCell4"/>
+            <TextView
+                android:id="@+id/tvCell5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:padding="18dip"
+                android:background="@drawable/colorborders2"
+                android:text="@string/tvCell5"/>
+            <TextView
+                android:id="@+id/tvCell6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:padding="18dip"
+                android:background="@drawable/colorborders2"
+                android:text="@string/tvCell6"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/tvCell7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:padding="18dip"
+                android:background="@drawable/colorborders2"
+                android:text="@string/tvCell7"/>
+            <TextView
+                android:id="@+id/tvCell8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:padding="18dip"
+                android:background="@drawable/colorborders2"
+                android:text="@string/tvCell8"/>
+            <TextView
+                android:id="@+id/tvCell9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:padding="18dip"
+                android:background="@drawable/colorborders2"
+                android:layout_span="2"
+                android:text="@string/tvCell9"/>
+        </TableRow>
+
+    </TableLayout>
+
+
+</RelativeLayout>

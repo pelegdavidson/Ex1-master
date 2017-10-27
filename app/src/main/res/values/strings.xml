@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Ex1</string>
+
+    <string name="tvIntro">This activity demonstrates the use of Relative Layout with two internal Linear layouts</string>
+
+    <string name="name">Your Name:</string>
+
+    <string name="name_buttom">Press me!</string>
+
+    <string name="choose1">Option1</string>
+
+    <string name="choose2">Option2</string>
+
+    <string name="choose3">Option3</string>
+
+    <string name="radio">Alternative1</string>
+
+    <string name="radio2">Alternative2</string>
+
+    <string name="tvIntro2">This activity demonstrates the use of Grid Layout with embededd image views</string>
+
+    <string name="tvIntro3">This activity demonstrates the use of Table Layout with spanning columns</string>
+
+    <string name="tvCell1">cell1</string>
+
+    <string name="tvCell2">cell2</string>
+
+    <string name="tvCell3">cell3</string>
+
+    <string name="tvCell4">cell4</string>
+
+    <string name="tvCell5">cell5</string>
+
+    <string name="tvCell6">cell6</string>
+
+    <string name="tvCell7">cell7</string>
+
+    <string name="tvCell8">cell8</string>
+
+    <string name="tvCell9">cell9</string>
+
+    <string name="tvClock">My Clock</string>
+
+    <string name="tvIntro4">This activity demonstrates the use of Frame Layout with multiple views on top of each other</string>
+
+</resources>
